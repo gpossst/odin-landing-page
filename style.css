@@ -40,6 +40,7 @@ a {
     font-size: 48px;
     color: #f9FAF8;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
 }
 
 .secondary {
@@ -54,4 +55,21 @@ button {
     width: 80px;
     height: 25px;
     border-radius: 9px;
+}
+
+.top {
+    display: flex;
+    padding: 30px 100px;
+}
+
+.top img {
+    width: 400px;
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
 }
